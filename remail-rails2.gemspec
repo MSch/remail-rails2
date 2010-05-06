@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/remail.rb",
-     "remail.gemspec"
+     "remail-rails2.gemspec"
   ]
   s.homepage = %q{http://github.com/MSch/remail-rails2}
   s.rdoc_options = ["--charset=UTF-8"]
