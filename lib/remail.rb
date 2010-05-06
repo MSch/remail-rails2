@@ -43,7 +43,6 @@ end
 
 begin
   require "action_mailer"
-  require 'ruby-debug'
   module ActionMailer
   class Base
     def perform_delivery_remail(mail)
@@ -57,7 +56,6 @@ begin
 
       remail.subject  = mail.subject
 
-      debugger
       text_body   = select_mail_body(mail, 'text/plain')
       html_body   = select_mail_body(mail, 'text/html')
       remail.body = text_body
