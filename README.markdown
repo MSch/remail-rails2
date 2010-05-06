@@ -15,7 +15,7 @@ paid version, 7,400,000 emails per day.
 
 ## Setup
 * Configure and deploy the [Remail App Engine](http://github.com/maccman/remail-engine)
-* Install the Remail gem (sudo gem install remail)
+* Install the Remail gem (sudo gem install remail-rails2)
 
 ## Sending email
   Configure ActionMailer and Remail:
