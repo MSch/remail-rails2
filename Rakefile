@@ -1,11 +1,11 @@
 begin
   require "jeweler"
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "remail"
+    gemspec.name = "remail-rails2"
     gemspec.summary = "RESTful email"
-    gemspec.email = "info@eribium.org"
-    gemspec.homepage = "http://github.com/maccman/remail"
-    gemspec.authors = ["Alex MacCaw"]
+    gemspec.email = "martin+remail@schuerrer.org"
+    gemspec.homepage = "http://github.com/MSch/remail-rails2"
+    gemspec.authors = ["Alex MacCaw", "Martin Schuerrer"]
     gemspec.add_dependency("activeresource")
   end
 rescue LoadError

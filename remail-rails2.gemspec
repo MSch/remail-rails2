@@ -4,25 +4,26 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{remail}
-  s.version = "0.0.2"
+  s.name = %q{remail-rails2}
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Alex MacCaw"]
-  s.date = %q{2010-03-22}
-  s.email = %q{info@eribium.org}
+  s.authors = ["Alex MacCaw", "Martin Schuerrer"]
+  s.date = %q{2010-05-06}
+  s.email = %q{martin+remail@schuerrer.org}
   s.extra_rdoc_files = [
     "README.markdown"
   ]
   s.files = [
     ".gitignore",
+     "MIT-LICENSE",
      "README.markdown",
      "Rakefile",
      "VERSION",
      "lib/remail.rb",
      "remail.gemspec"
   ]
-  s.homepage = %q{http://github.com/maccman/remail}
+  s.homepage = %q{http://github.com/MSch/remail-rails2}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
