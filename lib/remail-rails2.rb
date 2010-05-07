@@ -56,10 +56,13 @@ begin
 
       remail.subject  = mail.subject
 
+      require 'ruby-debug'
+      debugger
+
       text_body   = select_mail_body(mail, 'text/plain')
       html_body   = select_mail_body(mail, 'text/html')
-      remail.body = text_body
-      remail.html = html_body
+      remail.body = text_body if text_body
+      remail.html = html_body if html_body
       remail.save
     end
     def select_mail_body(mail, content_type)
