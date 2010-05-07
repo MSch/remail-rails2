@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Alex MacCaw", "Martin Schuerrer"]
-  s.date = %q{2010-05-06}
+  s.date = %q{2010-05-07}
   s.email = %q{martin+remail@schuerrer.org}
   s.extra_rdoc_files = [
     "README.markdown"
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
      "README.markdown",
      "Rakefile",
      "VERSION",
-     "lib/remail.rb",
+     "lib/remail-rails2.rb",
      "remail-rails2.gemspec"
   ]
   s.homepage = %q{http://github.com/MSch/remail-rails2}
